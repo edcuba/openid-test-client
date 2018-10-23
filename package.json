@@ -1,0 +1,21 @@
+{
+  "name": "openid-test-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduard Cuba",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "openid-client": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
